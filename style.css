@@ -1,0 +1,107 @@
+body 
+{color:rgb(255, 254, 244);
+background:rgb(52 42 103);
+margin:0px;
+margin-bottom:100px;
+font-family: 'Red Hat Display', sans-serif}
+
+header
+{border-bottom:solid 3px rgb(255, 255, 90);
+padding:20px;
+font-family: 'Anton SC';
+font-size:40px;}
+
+/*          VÍDEO PRINCIPAL         */
+
+.top-estreia
+{background: rgb(29 23 63);
+padding-bottom:80px;
+padding-top:80px;
+display:flex;
+justify-content:center;}
+
+.titulo
+{margin-right:20px;
+margin-left:0px;}
+
+/*          FILA DE BAIXO         */
+
+.top-recentes
+{padding-left:20px;
+padding-right:20px;}
+
+.videos-recentes
+{display:flex;
+overflow-x:auto;
+gap:10px;}
+
+.videos-recentes img
+{height:150px;}
+
+/*          VÍDEO UM         */
+.video01 p
+{margin:0px;
+margin-left:5px;}
+
+.video01:hover
+{background-color: rgba(0, 255, 255, 0.2);
+border-color: rgba(0, 255, 255, 0.2);}
+
+.video1:hover
+{background:linear-gradient(#00000000, rgba(0, 0, 0, 0.75)),
+url(https://img.youtube.com/vi/XwbZt1kUrCY/maxresdefault.jpg);
+background-size:267px;}
+
+.video1 img:hover
+{opacity:0%;}
+
+/*          VÍDEO DOIS         */
+.video02 p
+{margin:0px;
+margin-left:5px;}
+
+.video02:hover
+{background-color: rgba(0, 255, 255, 0.2);
+border-color: rgba(0, 255, 255, 0.2);}
+
+.video2:hover
+{background:linear-gradient(#00000000, rgba(0, 0, 0, 0.75)),
+url(https://img.youtube.com/vi/G4U9YspbuG0/maxresdefault.jpg);
+background-size:267px;}
+
+.video2 img:hover
+{opacity:0%;}
+
+/*          VÍDEO TRÊS         */
+.video03 p
+{margin:0px;
+margin-left:5px;}
+
+.video03:hover
+{background-color: rgba(0, 255, 255, 0.2);
+border-color: rgba(0, 255, 255, 0.2);}
+
+.video3:hover
+{background:linear-gradient(#00000000, rgba(0, 0, 0, 0.75)),
+url(https://img.youtube.com/vi/ixvZJIT8eTA/maxresdefault.jpg);
+background-size:267px;}
+
+.video3 img:hover
+{opacity:0%;}
+
+/*          VÍDEO QUATRO         */
+.video04 p
+{margin:0px;
+margin-left:5px;}
+
+.video04:hover
+{background-color: rgba(0, 255, 255, 0.2);
+border-color: rgba(0, 255, 255, 0.2);}
+
+.video4:hover
+{background:linear-gradient(#00000000, rgba(0, 0, 0, 0.75)),
+url(https://img.youtube.com/vi/5uUbb7qZhMU/maxresdefault.jpg);
+background-size:267px;}
+
+.video4 img:hover
+{opacity:0%;}
